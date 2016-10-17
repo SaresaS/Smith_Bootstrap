@@ -1,7 +1,7 @@
 html, body {
     margin: auto;
     height: 100%;
-    background: url("../Images/background.jpeg") no-repeat center center fixed; 
+    background: url("../Images/background.png") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -13,48 +13,11 @@ html, body {
 }
 
 .logo{
-	margin-bottom: 15px;
+	width: 75px;
+	height: 50px;
+	margin-top: -15px;
 }
 
-.logo img{
-	width: 250px;
-	height: 115px;
-}
-
-.team img{
-padding-top: 20px;
-}
-
-.team p{
-	padding-top: 15px;
-	padding-bottom: 12px;
-	color: rgba(254, 254, 254, 0.7);
-}
-
-.charTitle{
-	background-color: rgba(0, 0, 0, 0.7);
-	text-align: center;
-	font-size: 20px;
-	border-radius: 8px;
-}
-
-.charTitle h2{
- 	padding-top: 7px;
- 	color: white;
-}
-
-.charTitle h3{
- 	padding-bottom: 12px;
- 	margin-top: -15px;
- 	color: white;
-}
-
-.team{
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 10px;
-	padding-top: 12px;
-	text-align: center
-}
 
 .showShots{
 	padding-top: 25px;
@@ -62,6 +25,19 @@ padding-top: 20px;
 }
 
 button{
-	height: 45px;
-	width: 45px;
+	background-color: black;
+}
+
+.body{
+	margin-top: 45px;
+}
+
+.menu img{
+	display: inline-block;
+	float: left;
+
+}
+.search input{
+	display: inline-block;
+	float: left;
 }

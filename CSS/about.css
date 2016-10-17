@@ -7,5 +7,16 @@
 }
 
 #mainContent {
-	color: white;
+	color: black;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
+
+#mainContent h2{
+	color: black;
+}
+
+#mainContent p{
+font-family: 'Rosario', sans-serif;
+color: white;
+}
+
